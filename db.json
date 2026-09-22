@@ -1,0 +1,233 @@
+{
+  "mobiles": [
+    {
+      "name": "iPhone 17 Pro",
+      "brand": "Apple",
+      "price": "129990",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB NVMe",
+      "image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/mobile/n/v/a/-original-imahft5nxmyqndhf.jpeg?q=70",
+      "stock": "5",
+      "camera": "48MP Triple Fusion Matrix",
+      "battery": "4800 mAh + 45W Fast Sync",
+      "description": "Next generation titanium chassis engineered with an ultra-powerful A19 Pro neural architecture substrate.",
+      "id": "wuWQtWbm_SU"
+    },
+    {
+      "name": " Galaxy S26 Ultra",
+      "brand": "Samsung",
+      "price": "134999",
+      "stock": "4",
+      "ram": "16GB LPDDR6",
+      "storage": "512GB UFS 4.1",
+      "camera": "200MP Quad ISOCELL Cluster",
+      "battery": "5500 mAh + 65W SuperCharge",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMabMtVgSLoruprG3HGC6JtXta04a5VnIajx5mxwE-ffhuYAtm8Jdv5z8j&s=10",
+      "description": "Ultimate productivity machine packing advanced cognitive Galaxy AI algorithms with a built-in telemetry S-Pen ecosystem.",
+      "id": "_aszgZmQhos"
+    },
+    {
+      "name": "OnePlus 14 Pro",
+      "brand": "OnePlus",
+      "price": "64999",
+      "stock": "8",
+      "ram": "16GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "camera": "50MP Hasselblad Color Calibration",
+      "battery": "5400 mAh + 100W SuperVOOC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSORzStRn_rZJ6j-jmkKCkQbpchXlNj8aPZIcTJZROJF9uzSOVEW29Os&s=10",
+      "description": "Premium flagship performance featuring the smooth OxygenOS interface layer combined with extreme rapid charging architecture.",
+      "id": "_9HK6rvOpo8"
+    },
+    {
+      "name": "Pixel 10 Pro",
+      "brand": "Google",
+      "price": "109999",
+      "stock": "8",
+      "ram": "16GB LPDDR5X",
+      "storage": "128GB UFS 4.0",
+      "camera": "50MP Pure Magic Computational Camera",
+      "battery": "5050 mAh + 30W Power Delivery",
+      "image": "https://m.media-amazon.com/images/I/51TvUow3bKL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Purest Android experience powered directly by Google Gemini AI core integration inside the hardware laye",
+      "id": "SRsizz3FJi4"
+    },
+    {
+      "name": "Redmi Note 15 Pro",
+      "brand": "Xiaomi",
+      "price": "24999",
+      "stock": "7",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB UFS 2.2",
+      "camera": "108MP Main Sensor Matrix",
+      "battery": "5000 mAh + 67W SonicCharge",
+      "image": "https://m.media-amazon.com/images/I/61s1laiSWIL._AC_SL1500_.jpg",
+      "description": "Massive value king offering a vivid 120Hz display matrix alongside long-lasting battery lifespans for everyday consumers.",
+      "id": "T0nWebyREy0"
+    },
+    {
+      "name": "ROG Phone 10 Pro",
+      "brand": "ASUS",
+      "price": "94999",
+      "stock": "8",
+      "ram": "24GB LPDDR6",
+      "storage": "1TB UFS 4.1",
+      "camera": "50MP Sony IMX Main Sensor",
+      "battery": " 6000 mAh + 85W HyperCharge",
+      "image": "https://cdn1.smartprix.com/rx-iR9M6rChZ-w500-h500/asus-rog-phone-7d.jpg",
+      "description": "Extreme hardcore gaming machine featuring active internal aero-cooling vents and custom programmable ultrasonic air-triggers.",
+      "id": "aYZcxuphB-c"
+    },
+    {
+      "name": "Galaxy Z Fold 8",
+      "brand": "Samsung",
+      "price": "154999",
+      "stock": "8",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB UFS 4.0",
+      "camera": "50MP Triple Under-Display Cluster",
+      "battery": "4600 mAh + 45W Wired Sync",
+      "image": "https://cdn.etoren.com/upload/images/0.04641700_1784783259_samsung-galaxy-z-fold-8-ultra-5g-sm-f976b-dual-sim-256-gb-graphite-12gb-ram.png",
+      "description": "Luxury multi-tasking hybrid featuring a zero-gap aerospace hinge mechanism and ultra-thin flexible display glass technology.",
+      "id": "28xDR_kJpgk"
+    },
+    {
+      "name": "Vivo X110 Pro Plus",
+      "brand": "Vivo",
+      "price": "89999",
+      "stock": "5",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB UFS 4.0",
+      "camera": "50MP 1-inch ZEISS Optic Lens Grid",
+      "battery": "5000 mAh + 120W FlashCharge",
+      "image": "https://cdn1.smartprix.com/rx-iTkHV8hlx-w500-h500/vivo-x100s.jpg",
+      "description": "Professional cinematography device engineered with specialized V3 image-processing chips and authentic ZEISS color calibration.",
+      "id": "kZXPs2WApxg"
+    },
+    {
+      "name": "iQOO 13 Pro",
+      "brand": "iQOO",
+      "price": "44999",
+      "stock": "6",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "camera": "50MP OIS Stable Gimbal Camera",
+      "battery": "5100 mAh + 120W Ultra-Fast Sync",
+      "image": "https://m.media-amazon.com/images/I/51PTQGiP5ZL._AC_UF1000,1000_QL80_.jpg",
+      "description": "High-octane mobile platform fine-tuned for high frame-rate mobile competitive scenarios and extreme software multi-tasking.",
+      "id": "4o_h3sw6YUo"
+    },
+    {
+      "name": "Nothing Phone 4",
+      "brand": "Nothing",
+      "price": "42999",
+      "stock": "4",
+      "ram": "12GB LPDDR5",
+      "storage": "256GB UFS 3.1",
+      "camera": "50MP Dual Advanced Sensor Grid",
+      "battery": "5000 mAh + 45W PPS Charging",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_kYcuYoOV_lCxGgSvlyfsBID6Id6I3pLjGVT--AygDXz7KUeZeHWcwY&s=10",
+      "description": "Sleek translucent glass design operating the highly reactive ambient Glyph interface LED cluster synchronized with hardware sound layers.",
+      "id": "dJttB44kRXU"
+    },
+    {
+      "name": "Redmi Note 15 Pro",
+      "brand": "Xiaomi",
+      "price": "24999",
+      "stock": "6",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB UFS 2.2",
+      "camera": "108MP Main Sensor Matrix",
+      "battery": "5000 mAh + 67W SonicCharge",
+      "image": "https://m.media-amazon.com/images/I/81FhRGs5+ML._AC_UF1000,1000_QL80_.jpg",
+      "description": "Striking unique minimalist structural design platform powered by the ultra-fluid Nothing OS custom widget ecosystem.",
+      "id": "NwgxRrt4KRo"
+    },
+    {
+      "name": "iQOO Z10 Pro",
+      "brand": "iQOO",
+      "price": "22999",
+      "stock": "5",
+      "ram": " 8GB LPDDR4X",
+      "storage": "128GB UFS 2.2",
+      "camera": "50MP Ultra-Clear Main Sensor",
+      "battery": "6000 mAh + 44W FlashCharge",
+      "image": "https://m.media-amazon.com/images/I/61ImCLk1sqL._AC_UF1000,1000_QL80_.jpg",
+      "description": "Massive battery monster engineered for extreme endurance runs, high frame-rate mobile competitive scenarios, and intensive media scrolling.",
+      "id": "uVAOd1YxGF0"
+    },
+    {
+      "name": "Realme Narzo 80 Pro",
+      "brand": "Realme",
+      "price": "18999",
+      "stock": "5",
+      "ram": "8GB LPDDR4X",
+      "storage": "128GB",
+      "camera": "50MP AI Dual Camera",
+      "battery": "5000 mAh + 45W SUPERVOOC",
+      "image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/mobile/b/v/z/narzo-80-pro-5g-rmx5033-realme-original-imahb4u6kztxtcrd.jpeg?q=70",
+      "description": "Sleek ergonomic budget device featuring a smooth feather-touch design framework and robust daily processing efficiency.",
+      "id": "zvAoy17wRTw"
+    },
+    {
+      "name": "OnePlus Nord CE 5 Lite",
+      "brand": "OnePlus",
+      "price": "145999",
+      "stock": "7",
+      "ram": "8GB",
+      "storage": "128GB UFS 2.2",
+      "camera": "50MP Sony Anti-Shake OIS",
+      "battery": "5110 mAh + 80W SUPERVOOC",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1RSWw5xR6qOgU0DszGWzdfi4VK9-0loqbchXyoPJmMkoYJdAT3pw1jaw&s=10",
+      "description": "Brings the premium signature OxygenOS interface fluid stability to an incredibly accessible price point with rapid flash charging hardware.",
+      "id": "giMLuXhn7wI"
+    },
+    {
+      "name": "Moto G86 Power",
+      "brand": "Motorola",
+      "price": "18999",
+      "stock": "6",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB",
+      "camera": "50MP Quad Pixel Sensor",
+      "battery": "6000 mAh + 33W TurboPower",
+      "image": "https://m.media-amazon.com/images/I/41JrKQzppPL._AC_UF350,350_QL80_.jpg",
+      "description": "Pure bloatware-free stock Android experience wrapped inside a robust structural shell packing massive multi-day battery backups.",
+      "id": "umUcfVmLGCU"
+    },
+    {
+      "name": "Galaxy M36 5G",
+      "brand": "Samsung",
+      "price": "18999",
+      "stock": "5",
+      "ram": "8GB",
+      "storage": "128GB",
+      "camera": "50MP Triple Camera Setup",
+      "battery": "6000 mAh + 25W Charging",
+      "image": "https://m.media-amazon.com/images/I/71UzHCLBm1L._AC_UF1000,1000_QL80_.jpg",
+      "description": "Reliable sub-segment powerhouse delivering vibrant sAMOLED display panel rendering and extensive multi-year security core updates.",
+      "id": "T0UijCU-Elg"
+    }
+  ],
+  "cart": [
+    {
+      "productId": "_9HK6rvOpo8",
+      "name": "OnePlus 14 Pro",
+      "brand": "OnePlus",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSORzStRn_rZJ6j-jmkKCkQbpchXlNj8aPZIcTJZROJF9uzSOVEW29Os&s=10",
+      "price": "64999",
+      "ram": "16GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "camera": "50MP Hasselblad Color Calibration",
+      "battery": "5400 mAh + 100W SuperVOOC",
+      "quantity": 2,
+      "id": "YtoxTMIgQcU"
+    }
+  ],
+  "orders": [
+    {
+      "id": "m5DKOZ4Kmc4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
