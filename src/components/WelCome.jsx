@@ -10,15 +10,8 @@ function WelCome() {
   const filteredMobiles = mobiles
     ? mobiles.filter((mobile) => {
         const search = searchTerm.toLowerCase();
-
-        const nameMatch = (mobile.name || '')
-          .toLowerCase()
-          .includes(search);
-
-        const brandMatch = (mobile.brand || '')
-          .toLowerCase()
-          .includes(search);
-
+        const nameMatch = (mobile.name || '').toLowerCase().includes(search);
+        const brandMatch = (mobile.brand || '').toLowerCase().includes(search);
         return nameMatch || brandMatch;
       })
     : [];
@@ -27,6 +20,8 @@ function WelCome() {
     <div style={styles.container}>
 
       <style>{`
+
+      
         .store-card {
           position: relative;
           overflow: hidden;
@@ -240,17 +235,8 @@ function WelCome() {
 
       `}</style>
 
-
-      {/* =========================
-          TOP HEADER
-      ========================= */}
-
       <div className="intro-header">
-
-        {/* LEFT SIDE TEXT */}
-
         <div className="intro-content">
-
           <div style={styles.topBadge}>
             ✨ Latest Smartphones
           </div>
@@ -276,9 +262,6 @@ function WelCome() {
 
         </div>
 
-
-        {/* RIGHT SIDE SEARCH */}
-
         <div className="search-bar-wrapper">
 
           <input
@@ -293,38 +276,24 @@ function WelCome() {
 
       </div>
 
-
-      {/* =========================
-          LOADING / PRODUCTS
-      ========================= */}
-
       {loading ? (
-
         <div className="loading-text">
-
           Fetching latest smartphones
-
           <span className="loading-dot"></span>
           <span className="loading-dot"></span>
           <span className="loading-dot"></span>
-
         </div>
-
       ) : (
-
         <div
           className="product-grid"
           style={styles.grid}
         >
 
           {filteredMobiles.length === 0 ? (
-
             <div style={styles.emptyBox}>
-
               <div style={styles.emptyIcon}>
                 📱
               </div>
-
               <h3 style={styles.emptyTitle}>
                 No Results Found
               </h3>
@@ -333,21 +302,15 @@ function WelCome() {
                 Try searching for another smartphone model or
                 brand manufacturer.
               </p>
-
             </div>
 
           ) : (
-
             filteredMobiles.map((mobile) => (
-
               <div
                 key={mobile._id || mobile.id}
                 className="store-card"
                 style={styles.card}
               >
-
-                {/* IMAGE */}
-
                 <div
                   className="image-container"
                   style={styles.imageContainer}
@@ -366,11 +329,7 @@ function WelCome() {
 
                 </div>
 
-
-                {/* CONTENT */}
-
                 <div style={styles.content}>
-
                   <span style={styles.brandBadge}>
                     {mobile.brand}
                   </span>
@@ -379,21 +338,13 @@ function WelCome() {
                     {mobile.name}
                   </h3>
 
-
-                  {/* BATTERY + CAMERA */}
-
                   <div style={styles.specContainer}>
-
                     <span style={styles.specItem}>
                       🔋 {mobile.battery}
                     </span>
                   </div>
 
-
-                  {/* RAM + STORAGE */}
-
                   <div style={styles.extraSpecs}>
-
                     <span>
                       RAM: {mobile.ram}
                     </span>
@@ -404,13 +355,8 @@ function WelCome() {
 
                   </div>
 
-
-                  {/* PRICE + BUTTON */}
-
                   <div style={styles.footerRow}>
-
                     <div>
-
                       <small style={styles.priceLabel}>
                         Starting from
                       </small>
@@ -425,11 +371,9 @@ function WelCome() {
                     </div>
 
                   <Link
-      to={`/product/${mobile._id || mobile.id}`}
-      className="view-details-btn"
-    >
-      View Details →
-    </Link>
+                           to={`/product/${mobile._id || mobile.id}`}
+                            className="view-details-btn">  View Details →
+                 </Link>
 
                   </div>
 
@@ -454,7 +398,8 @@ const styles = {
     fontFamily: '"Inter","Segoe UI",Arial, sans-serif',
     background:
       'linear-gradient(180deg, #f8fafc 0%, #ffffff 100%)',
-    minHeight: '100vh'
+    minHeight: '100vh',
+
   },
 
 

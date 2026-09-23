@@ -10,7 +10,8 @@ export function usemobiles() {
     try {
       const response = await API.get('/mobiles');
       if (Array.isArray(response.data)) {
-        setMobiles(response.data);
+        const availablemobiles = response.data.filter((mobile)=> Number(mobile.stock || 0) > 0)
+        setMobiles(availablemobiles);
       } else {
         setMobiles([]);
       }

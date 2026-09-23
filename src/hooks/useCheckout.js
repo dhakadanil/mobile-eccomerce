@@ -17,12 +17,13 @@ export const useCheckout = (cart, cartTotal) => {
     state: "",
     pincode: "",
   });
+
   const [loading, setLoading] = useState(false);
+
   const handleUserChange = (e) => {
     const { name, value } = e.target;
     setUser((prev) => ({
-      ...prev,
-      [name]: value,
+      ...prev,[name]: value,
     }));
   };
 
@@ -135,6 +136,7 @@ export const useCheckout = (cart, cartTotal) => {
         orderStatus: "Pending",
         orderDate: new Date().toISOString(),
       };
+
       const response = await API.post( "/orders",orderData);
       console.log("Order successfully created:",response.data );
 

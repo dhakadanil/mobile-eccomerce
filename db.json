@@ -207,23 +207,35 @@
       "image": "https://m.media-amazon.com/images/I/71UzHCLBm1L._AC_UF1000,1000_QL80_.jpg",
       "description": "Reliable sub-segment powerhouse delivering vibrant sAMOLED display panel rendering and extensive multi-year security core updates.",
       "id": "T0UijCU-Elg"
-    }
-  ],
-  "cart": [
+    },
     {
-      "productId": "_9HK6rvOpo8",
-      "name": "OnePlus 14 Pro",
-      "brand": "OnePlus",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSORzStRn_rZJ6j-jmkKCkQbpchXlNj8aPZIcTJZROJF9uzSOVEW29Os&s=10",
-      "price": "64999",
-      "ram": "16GB LPDDR5X",
-      "storage": "256GB UFS 4.0",
-      "camera": "50MP Hasselblad Color Calibration",
-      "battery": "5400 mAh + 100W SuperVOOC",
-      "quantity": 2,
-      "id": "YtoxTMIgQcU"
+      "name": "OPPO Reno 12 5G",
+      "brand": "Oppo",
+      "price": "32999",
+      "stock": "0",
+      "ram": "8GB",
+      "storage": "256GB NVMe",
+      "camera": "50MP Main + 8MP Ultra-Wide + 2MP Macro",
+      "battery": "5000mAh , 80W SUPERVOOC Fast Charging",
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/mobile/p/v/p/-original-imah3cmbhgfymupr.jpeg?q=90",
+      "description": "A stylish 5G smartphone featuring a vibrant AMOLED display,\npowerful performance, advanced camera setup and fast 80W charging.\nIt is designed for users who want a premium-looking device with\nsmooth everyday performance and strong photography capabilities.",
+      "id": "QV-Tt-H34T4"
+    },
+    {
+      "name": "OPPO A3 Pro 5G",
+      "brand": "Oppo",
+      "price": "24999",
+      "stock": "0",
+      "ram": "8GB",
+      "storage": "128GB",
+      "camera": " 64MP Main + 2MP Depth",
+      "battery": "5100mAh ,67W SUPERVOOC Fast Charging",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2HrEe1rihB1APfu04dFM0B765qiqc7Ynd0XwFyQsMhK26k7PAOnP-EcN&s=10",
+      "description": "A durable 5G smartphone with a large display, high-capacity battery,\nfast charging and a capable camera system. It is suitable for\neveryday users looking for reliable performance, long battery life\nand a modern smartphone experience.",
+      "id": "6LzcS6rwVyc"
     }
   ],
+  "cart": [],
   "orders": [
     {
       "id": "m5DKOZ4Kmc4"

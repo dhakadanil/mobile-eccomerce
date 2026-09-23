@@ -23,6 +23,8 @@ const navigate = useNavigate()
   useEffect(() => {
     fetchCart();
   }, []);
+
+
   const addToCart = async (mobile) => {
   if (!mobile) {
     return;
@@ -51,8 +53,8 @@ const navigate = useNavigate()
 
       const response = await API.post("/cart",cartProduct);
       console.log("Cart POST response:",response.data);
-      navigate("/cart");
       alert("Product cart me add ho gaya 🛒");
+      navigate("/cart");
     }
     await fetchCart();
   } catch (error) {
@@ -68,18 +70,13 @@ const navigate = useNavigate()
 
 const increaseQuantity = async (item) => {
   const newQuantity = (item.quantity || 1) + 1;
-
   try {
     await API.patch(`/cart/${item.id}`, {
       quantity: newQuantity
     });
-
     setCart((prevCart) =>
       prevCart.map((cartItem) =>
-        cartItem.id === item.id
-          ? { ...cartItem, quantity: newQuantity }
-          : cartItem
-      )
+        cartItem.id === item.id ? { ...cartItem, quantity: newQuantity }: cartItem)
     );
   } catch (error) {
     console.log("Quantity increase karne me error", error);
@@ -88,24 +85,17 @@ const increaseQuantity = async (item) => {
 
 const decreaseQuantity = async (item) => {
   const currentQuantity = item.quantity || 1;
-
   if (currentQuantity <= 1) {
     return;
   }
-
   const newQuantity = currentQuantity - 1;
-
   try {
     await API.patch(`/cart/${item.id}`, {
       quantity: newQuantity
     });
-
     setCart((prevCart) =>
       prevCart.map((cartItem) =>
-        cartItem.id === item.id
-          ? { ...cartItem, quantity: newQuantity }
-          : cartItem
-      )
+        cartItem.id === item.id ? { ...cartItem, quantity: newQuantity }: cartItem )
     );
   } catch (error) {
     console.log("Quantity decrease karne me error", error);

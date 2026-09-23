@@ -63,9 +63,12 @@ function Dashboard() {
 
       </div>
 
-      {loading ? (
-        <p style={{ textAlign: 'center', color: '#666', padding: '20px' }}>Loading inventory...</p>
-      ) : (
+     {loading ? (
+  <div className="dashboard-loading">
+    <div className="loading-spinner"></div>
+    <span>Loading inventory...</span>
+  </div>
+) : (
         <div className="table-responsive-wrapper">
           <table style={styles.table}>
             <thead>
@@ -75,7 +78,7 @@ function Dashboard() {
                 <th style={styles.th}>Brand</th>
                 <th style={styles.th}>Price</th>
                 <th style={styles.th}>Stock</th>
-                <th style={styles.th}>Action</th>
+                <th  style={{ ...styles.th, textAlign: 'center' }} className='action'>Action</th>
               </tr>
             </thead>
             <tbody>
@@ -102,7 +105,7 @@ function Dashboard() {
                         {mobile.stock} Left
                       </span>
                     </td>
-                    <td style={styles.actionCell}>
+                    <td style={{...styles.actionCell,textAlign: 'center'}}>
                       <Link to={`/admin/edit/${mobile.id}`} className="premium-edit-btn">
                         Edit ✏️
                       </Link>
@@ -125,7 +128,34 @@ function Dashboard() {
           -webkit-overflow-scrolling: touch;
           box-shadow: 0 2px 8px rgba(0,0,0,0.06);
           border-radius: 8px;
+            box-sizing: border-box;
+
         }
+            .dashboard-loading {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #64748b;
+  box-sizing: border-box;
+}
+
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #e2e8f0;
+  border-top: 3px solid #00adb5;
+  border-radius: 50%;
+  animation: dashboardSpin 0.8s linear infinite;
+}
+          @keyframes dashboardSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
         .premium-edit-btn {
           background: #c6da1b;
           color: white;
@@ -142,6 +172,7 @@ function Dashboard() {
           transform: translateY(-2px) scale(1.05);
           box-shadow: 0 4px 10px rgba(198, 218, 27, 0.35);
         }
+    
         .premium-delete-btn {
           background: #ff5252;
           color: white;
@@ -229,7 +260,12 @@ function Dashboard() {
 }
 
 const styles = {
-  container: { fontFamily: 'Arial, sans-serif' },
+ container: {
+  fontFamily: 'Arial, sans-serif',
+  width: '100%',
+  boxSizing: 'border-box',
+  overflowX: 'hidden'
+},
   addBtn: { background: '#00adb5', color: 'white', padding: '10px 20px', border: 'none', cursor: 'pointer', borderRadius: '6px', fontWeight: 'bold', fontSize: '14px', boxShadow: '0 4px 6px rgba(0, 173, 181, 0.2)', transition: 'all 0.2s ease' },
   statsGrid: { display: 'flex', gap: '20px', marginBottom: '25px' },
   card: { flex: 1, background: '#f8fafc', padding: '15px 20px', borderRadius: '10px', display: 'flex', flexDirection: 'column', gap: '4px', border: '1px solid #e2e8f0' },
@@ -257,7 +293,14 @@ const styles = {
   th: { padding: '15px', whiteSpace: 'nowrap' },
   tableRow: { borderBottom: '1px solid #eee' },
   td: { padding: '15px', whiteSpace: 'nowrap' },
-  actionCell: { padding:'25px', display: 'flex', gap: '8px', alignItems: 'center', whiteSpace: 'nowrap' },
+  actionCell: {
+  padding: '25px',
+  display: 'flex',
+  gap: '8px',
+  alignItems: 'center',
+  justifyContent: 'center',
+  whiteSpace: 'nowrap'
+},
   emptyTd: { padding: '20px', textAlign: 'center', color: '#888' },
   img: { width: '50px', height: '50px', objectFit: 'contain', borderRadius: '4px', background: '#f9f9f9' },
   

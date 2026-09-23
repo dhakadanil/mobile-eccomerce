@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 
 function Navbar() {
   return (
+    
     <nav className="premium-navbar">
       <div className="navbar-logo">
         📱 Mobile<span>Shop</span>

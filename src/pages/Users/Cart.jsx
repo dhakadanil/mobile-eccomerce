@@ -518,9 +518,7 @@ function Cart() {
       `}</style>
 
       <div className="cart-page">
-
         <div className="cart-container">
-
           {loading ? (
             <div className="loading-cart">
               <h2>
@@ -528,9 +526,7 @@ function Cart() {
               </h2>
             </div>
           ) : cart.length === 0 ? (
-
             <div className="empty-cart">
-
               <div className="empty-cart-icon">
                 🛒
               </div>
@@ -543,7 +539,6 @@ function Cart() {
             </div>
 
           ) : (
-
             <>
               <h1 className="cart-title">
                 🛒 My Cart
