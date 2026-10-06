@@ -30,7 +30,7 @@
       "name": "OnePlus 14 Pro",
       "brand": "OnePlus",
       "price": "64999",
-      "stock": "8",
+      "stock": "6",
       "ram": "16GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "camera": "50MP Hasselblad Color Calibration",
@@ -173,7 +173,7 @@
       "name": "OnePlus Nord CE 5 Lite",
       "brand": "OnePlus",
       "price": "145999",
-      "stock": "7",
+      "stock": "5",
       "ram": "8GB",
       "storage": "128GB UFS 2.2",
       "camera": "50MP Sony Anti-Shake OIS",
@@ -235,10 +235,167 @@
       "id": "6LzcS6rwVyc"
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "productId": "SRsizz3FJi4",
+      "name": "Pixel 10 Pro",
+      "brand": "Google",
+      "image": "https://m.media-amazon.com/images/I/51TvUow3bKL._AC_UF1000,1000_QL80_.jpg",
+      "price": "109999",
+      "ram": "16GB LPDDR5X",
+      "storage": "128GB UFS 4.0",
+      "camera": "50MP Pure Magic Computational Camera",
+      "battery": "5050 mAh + 30W Power Delivery",
+      "quantity": 1,
+      "id": "nv5nBdqzxWg"
+    }
+  ],
   "orders": [
     {
       "id": "m5DKOZ4Kmc4"
+    },
+    {
+      "customer": {
+        "name": "Anil Dhakad",
+        "mobile": "8690747425",
+        "email": "dhakadanil093@gmail.com"
+      },
+      "address": {
+        "houseNo": "256",
+        "address": "Bishaniya kotri bhilwara",
+        "city": "shahpura",
+        "state": "Rajashthan",
+        "pincode": "311202"
+      },
+      "products": [
+        {
+          "productId": "_aszgZmQhos",
+          "name": " Galaxy S26 Ultra",
+          "brand": "Samsung",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMabMtVgSLoruprG3HGC6JtXta04a5VnIajx5mxwE-ffhuYAtm8Jdv5z8j&s=10",
+          "price": 134999,
+          "quantity": 1,
+          "ram": "16GB LPDDR6",
+          "storage": "512GB UFS 4.1"
+        }
+      ],
+      "totalItems": 1,
+      "totalAmount": 134999,
+      "orderStatus": "Pending",
+      "orderDate": "2026-10-05T04:57:32.489Z",
+      "id": "BUigX8Uo8bs"
+    },
+    {
+      "customer": {
+        "name": "Anil Dhakad",
+        "mobile": "8690747425",
+        "email": "dhakadanil093@gmail.com"
+      },
+      "address": {
+        "houseNo": "256",
+        "address": "kotri bhilwara",
+        "city": "Bhilwara",
+        "state": "Rajashthan",
+        "pincode": "311406"
+      },
+      "products": [
+        {
+          "productId": "T0UijCU-Elg",
+          "name": "Galaxy M36 5G",
+          "brand": "Samsung",
+          "image": "https://m.media-amazon.com/images/I/71UzHCLBm1L._AC_UF1000,1000_QL80_.jpg",
+          "price": 18999,
+          "quantity": 1,
+          "ram": "8GB",
+          "storage": "128GB"
+        }
+      ],
+      "totalItems": 1,
+      "totalAmount": 18999,
+      "orderStatus": "Pending",
+      "orderDate": "2026-10-05T05:38:46.356Z",
+      "id": "LgmiZBaBAyM"
+    },
+    {
+      "customer": {
+        "name": "Anil Dhakad",
+        "mobile": "7877528882",
+        "email": "dhakadanil093@gmail.com"
+      },
+      "address": {
+        "houseNo": "256",
+        "address": "gkjkh gk uj",
+        "city": "sdasdad",
+        "state": "Rajashthan",
+        "pincode": "311404"
+      },
+      "products": [
+        {
+          "productId": "_9HK6rvOpo8",
+          "name": "OnePlus 14 Pro",
+          "brand": "OnePlus",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSORzStRn_rZJ6j-jmkKCkQbpchXlNj8aPZIcTJZROJF9uzSOVEW29Os&s=10",
+          "price": 64999,
+          "quantity": 1,
+          "ram": "16GB LPDDR5X",
+          "storage": "256GB UFS 4.0"
+        }
+      ],
+      "totalItems": 1,
+      "totalAmount": 64999,
+      "orderStatus": "Pending",
+      "orderDate": "2026-10-05T07:44:57.641Z",
+      "id": "PrDKL7sEINc"
+    },
+    {
+      "customer": {
+        "name": "Anil Dhakad",
+        "mobile": "8690747425",
+        "email": "dhakadanil093@gmail.com"
+      },
+      "address": {
+        "houseNo": "256",
+        "address": "avghiygtf bnn  nnhg",
+        "city": "Bhilwara",
+        "state": "Rajashthan",
+        "pincode": "311404"
+      },
+      "products": [
+        {
+          "productId": "zvAoy17wRTw",
+          "name": "Realme Narzo 80 Pro",
+          "brand": "Realme",
+          "image": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/mobile/b/v/z/narzo-80-pro-5g-rmx5033-realme-original-imahb4u6kztxtcrd.jpeg?q=70",
+          "price": 18999,
+          "quantity": 1,
+          "ram": "8GB LPDDR4X",
+          "storage": "128GB"
+        }
+      ],
+      "totalItems": 1,
+      "totalAmount": 18999,
+      "orderStatus": "Pending",
+      "orderDate": "2026-10-05T07:47:37.833Z",
+      "id": "3bWUwNgTz74"
+    }
+  ],
+  "users": [
+    {
+      "id": "dxlL5GpOKW4"
+    },
+    {
+      "name": "dhakadanil093",
+      "email": "dhakadanil@gmail.com",
+      "password": "asdfgh",
+      "role": "user",
+      "id": "h8qiwqxWyjE"
+    },
+    {
+      "name": "dhakadanil093",
+      "email": "dhakadanil093@gmail.com",
+      "password": "qwerty",
+      "role": "admin",
+      "id": "bpk1Xf8h4nU"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
